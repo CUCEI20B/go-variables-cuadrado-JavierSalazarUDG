@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	a := 0.0
+	var a float64
 	fmt.Scan(&a)
 	fmt.Println(a * a)
 }
