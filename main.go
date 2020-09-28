@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
-func main()  {
-	fmt.Println("Hola Mundo!") // eliminar esta línea
+func main() {
+	a := 0.0
+	fmt.Scan(&a)
+	fmt.Println(a * a)
 }
